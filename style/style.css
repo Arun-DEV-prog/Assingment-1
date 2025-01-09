@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.azeret-mono-font {
+  font-family: "Azeret Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+header{
+  position: relative;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+ 
+   
+
+}
+nav .logo{
+  margin:20px 0px 10px 50px ;
+}
+
+nav .dbtn{
+  padding: 7px 12px 7px 12px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+   border-radius: 8px;
+  margin-right: 50px;
+  margin-top: 15px;
+   opacity: 0.8;
+
+}
+
+.header-section{
+  background: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+ position: relative;
+  width: 100%;
+  height: 444px;
+  margin-top:66px ;
+}
+
+.header-section .content-center{
+  max-width: 660px;
+  height: 380px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+.content-center .images{
+ display: flex;
+ justify-content: center;
+}
+.content-center img{
+  width: 160px;
+  height: 160px;
+  
+}
+.content-center .text{
+  color: rgb(13, 19, 33);
+  font-family: 25px;
+   line-height: 35px;
+    text-align: center;
+
+}
+.content-center .desc{
+  text-align: center;
+  color: rgb(13, 19, 33);
+}
+.content-center .btn-c{
+  display: flex;
+  justify-content: center;
+}
+.content-center .btn{
+  border-radius: 8px;
+  padding: 12px 15px 12px 15px;
+     background: rgb(13, 19, 33);
+     color: white;
+   
+
+}
+
+/* main content */
+.container{
+  max-width: 950px;
+  min-height: 930px;
+  border-radius: 16px;
+ 
+  background: rgba(13, 19, 33, 0.02);
+  margin-left: 100px;
+  margin-right: 90px;
+  margin-top: 30px;
+  padding: 50px 57px 50px 57px;
+
+}
+.container .content-title{
+  color: rgb(13, 19, 33);
+text-align: center;
+}
+
+.container .row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  border-radius: 16px;
+  margin-top: 20px;
+  padding: 36px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+
+}
+
+.container .row .t-content{
+  width: 100%;
+
+}
+
+.inspiration-container{
+  max-width: 900px;
+  height: 600px;
+  margin-left: 170px;
+  margin-right: 90px;
+  margin-top: 30px;
+  position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 3px;
+}
+.inspiration-container .insipr-title{
+ 
+  width: 760px;
+  height: 100px;
+   text-align: center;
+   margin-bottom: 100px;
+ 
+ 
+  
+   
+}
+
+.inspiration-container .insipr-title p{
+  color: #a49797;
+}
+
+.video-container{
+  max-width: 900px;
+  height: 600px;
+  box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+
+}
+.video-container .video{
+   margin: 40px;
+   border-radius: 16px;
+}
+
+.video-container .video iframe{
+ 
+}
+

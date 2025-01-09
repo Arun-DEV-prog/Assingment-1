@@ -160,7 +160,38 @@ border-radius: 16px;
    border-radius: 16px;
 }
 
-.video-container .video iframe{
+.current{
+  display: flex;
+  flex-direction: column;
+  margin: 150px 150px 15px 150px;
  
 }
 
+.current .current-content{
+ text-align: center;
+  
+}
+
+.current-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.current-card .column{
+  max-width: 243px;
+  min-height: 200px;
+  border-radius: 16px;
+  display: flex;
+  
+  flex-direction: column;
+ align-items: start;
+
+
+background: rgba(255, 223, 0, 0.05);
+}
+
+.current-card .column .column-content{
+  padding: 40px;
+}
